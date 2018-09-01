@@ -100,7 +100,7 @@ add_action('wp_enqueue_scripts', 'island_scripts_styles');
   //后台加载脚本和样式
   function admin_scripts_styles()
   {
-    wp_enqueue_script('auth-js', get_template_directory_uri() . '/js/auth.js', false, '0.1', true);
+    // wp_enqueue_script('auth-js', get_template_directory_uri() . '/js/auth.js', false, '0.1', true);
   }
   add_action('admin_enqueue_scripts', 'admin_scripts_styles');
 
